@@ -1,0 +1,52 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Look",
+            "id": "5e294651-ed9c-4b56-994a-16525df4472f",
+            "actions": [
+                {
+                    "name": "mousePosition",
+                    "type": "Value",
+                    "id": "e03f937a-474f-437b-aca7-346fc482b107",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "leftClick",
+                    "type": "Button",
+                    "id": "1aa65f17-aaa6-44b9-bdcc-192d0365804e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35324417-2794-480d-9b92-33116f8a73b2",
+                    "path": "<Mouse>/delta",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd38488c-63e8-43d6-9847-3126b0d28d2c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "leftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
