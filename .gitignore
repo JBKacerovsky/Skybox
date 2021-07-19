@@ -63,3 +63,4 @@ crashlytics-build.properties
 **/Assets/AssetStoreOriginals/**
 **/Assets/UnityHDRi/**
 **/Assets/TextMesh Pro/**
+*.zip

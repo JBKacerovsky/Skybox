@@ -5,13 +5,13 @@ using UnityEngine;
 using TMPro;
 public class SkyboxManager : MonoBehaviour
 {
-    [SerializeField] private TMP_Dropdown dropdown = null; 
+    [SerializeField] private TMP_Dropdown dropdown = null;
     public MatStruct[] MatList; // using a struct[] makes it possible to expose key-value pairs for the Dictionary in the unity editor for manual editing of the skybox material dictionary
     private Dictionary<string, Material> MatDictionary;
     // Start is called before the first frame update
     void Start()
     {
-        MatDictionary = new Dictionary<string, Material>(); 
+        MatDictionary = new Dictionary<string, Material>();
         foreach (MatStruct i in MatList)
         {
             MatDictionary.Add(i.key, i.mat);
@@ -28,6 +28,6 @@ public class SkyboxManager : MonoBehaviour
 [Serializable]
 public struct MatStruct
 {
-    public string key; 
+    public string key;
     public Material mat;
 }
